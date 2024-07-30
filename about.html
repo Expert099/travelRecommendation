@@ -25,16 +25,7 @@
         </ul>
         <!-- Search Bar -->
         <!-- Search Bar -->
-        <div class="flex flex-1 justify-end items-center rounded-full bg-white p-2 space-x-2">
-            
-                <input type="text" placeholder="Enter a destination or keyword" name="search" id="search" class=" flex-grow text-sm text-green-600 placeholder-green-600 pl-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M21 21l-4.35-4.35m2.6-2.6A7.5 7.5 0 1110.5 3.5a7.5 7.5 0 018.35 8.35z"></path>
-                </svg>
-                <button id="searchButton" class="bg-green-600 text-white text-sm px-4 py-1 rounded-lg" >Search</button>
-                <button class="bg-green-600 text-white-800 text-sm px-4 py-1 rounded-lg">Clear</button>
+        <div class="flex flex-1 justify-end items-center rounded-full  space-x-2">
            
         </div>
     </nav>
@@ -71,27 +62,67 @@
         </div>
 
         <!-- Right Portion: Text and Button -->
-        <div class="flex-1 p-6 flex  items-center h-screen">
+        <div class="flex-1 p-6 flex h-screen ">
 
-            <div>
-                <h1 class="text-white text-6xl md:text-6xl font-bold">EXPLORE</h1>
-            <h1 class="text-white text-6xl md:text-6xl font-bold">DREAM</h1>
-            <h1 class="text-white text-6xl md:text-6xl font-bold">DESTINATION</h1>
-            <p class="text-white text-md  mt-4 max-w-md">
-                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
-                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
-            </p>
-            <button class="mt-6 px-4 py-2 bg-green-600 text-white text-lg  rounded-lg">BOOK NOW</button>
-            </div>
-            <div>
-                <div class="max-w-md " id="container">
-                    
+            <div class="px-10">
+                <h1 class="text-white text-6xl md:text-6xl font-bold">ABOUT US</h1>
+                <div class="text-white text-md  leading-relaxed bg-gray-800 p-4 mt-12 bg-black bg-opacity-50 rounded-lg">
+                    <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to <span class="font-bold">provide the best experience</span> for people traveling to different destinations around the world.</p>
+                    <p >Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <span class="font-bold">putting our customers first</span> and <span class="font-bold">working together</span> to achieve our goals.</p>
+                    <p >Feel free to explore our website to learn more about what we offer!</p>
+                </div>
+           
+
+                <div class="flex mt-12 gap-6">
+                    <div class="flex-1   p-6 ml-4 ">
+                        <h1 class="text-white text-6xl md:text-5xl font-bold">Our</h1>
+                        <h1 class="text-white text-6xl md:text-5xl font-bold">Team</h1>
+                    </div>
+                    <!-- Second Column: Flex Div with Opacity -->
+                    <div class="flex-1 flex items-start justify-center bg-gray-600 bg-opacity-50 p-4 rounded-lg">
+                       <div class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="12" fill="#1E3A8A"/>
+                        <path fill="#ffffff" d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                      </svg></div>
+                       <div class="flex-grow my-6">
+                         <p class="text-white font-bold" >John Doe</p>
+                         <p class="text-gray-300 text-sm" >John is repponsible for ..</p>
+                         <div class="bg-green-600 text-white text-sm py-1 border border-white rounded-lg w-full text-center mt-2">
+                            CEO
+                        </div>
+                       </div>
+                    </div>
+                    <div class="flex-1 flex items-start justify-center bg-gray-600 bg-opacity-50 p-4 rounded-lg">
+                        <div class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#1E3A8A"/>
+                            <path fill="#ffffff" d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                          </svg></div>
+                        <div class="flex-grow my-6">
+                         <p class="text-white font-bold" >John Doe</p>
+                         <p class="text-gray-300 text-sm" >John is repponsible for ..</p>
+                         <div class="bg-green-600 text-white text-sm py-1 border border-white rounded-lg w-full text-center mt-2">
+                            Team Lead
+                        </div>
+                       </div>
+                    </div>
+                    <div class="flex-1 flex items-start justify-center bg-gray-600 bg-opacity-50 p-4 rounded-lg">
+                        <div class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="12" fill="#1E3A8A"/>
+                            <path fill="#ffffff" d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                          </svg></div>
+                        <div class="flex-grow my-6">
+                         <p class="text-white font-bold" >John Doe</p>
+                         <p class="text-gray-300 text-sm" >John is repponsible for ..</p>
+                         <div class="bg-green-600 text-white text-sm py-1 border border-white rounded-lg w-full text-center mt-2">
+                            Delivery Head
+                        </div>
+                       </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
     </section>
-
-    <script src="./travel_recommendation.js"></script>
 </body>
 
 </html>
