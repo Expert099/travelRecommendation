@@ -19,73 +19,74 @@
         </div>
         <!-- Navigation Links -->
         <ul class="flex flex-1 justify-center space-x-8">
-            <li><a href="#" class="hover:underline">Home</a></li>
-            <li><a href="#" class="hover:underline">About Us</a></li>
-            <li><a href="#" class="hover:underline">Contact Us</a></li>
+            <li><a href="travel_recommendation.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About Us</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
         </ul>
         <!-- Search Bar -->
         <!-- Search Bar -->
         <div class="flex flex-1 justify-end items-center rounded-full bg-white p-2 space-x-2">
-            
-                <input type="text" placeholder="Enter a destination or keyword" name="search" id="search" class=" flex-grow text-sm text-green-600 placeholder-green-600 pl-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M21 21l-4.35-4.35m2.6-2.6A7.5 7.5 0 1110.5 3.5a7.5 7.5 0 018.35 8.35z"></path>
-                </svg>
-                <button id="searchButton" class="bg-green-600 text-white text-sm px-4 py-1 rounded-lg" >Search</button>
-                <button class="bg-green-600 text-white-800 text-sm px-4 py-1 rounded-lg">Clear</button>
-           
+
+            <input type="text" placeholder="Enter a destination or keyword" name="search" id="search"
+                class=" flex-grow text-sm text-green-600 placeholder-green-600 pl-2">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-4.35-4.35m2.6-2.6A7.5 7.5 0 1110.5 3.5a7.5 7.5 0 018.35 8.35z"></path>
+            </svg>
+            <button id="searchButton" class="bg-green-600 text-white text-sm px-4 py-1 rounded-lg">Search</button>
+            <button id="clearButton" class="bg-green-600 text-white-800 text-sm px-4 py-1 rounded-lg">Clear</button>
+
         </div>
     </nav>
 
-    <section class="flex w-full h-screen bg-custom shadow-lg rounded-lg overflow-hidden">
+    <section class="flex w-full bg-custom shadow-lg rounded-lg overflow-hidden">
         <!-- Left Portion: Social Media Icons -->
         <div class="w-20  flex flex-col items-center p-4">
             <div class="h-30 w-px bg-white my-4 " style="height: 40%;"></div>
-            
-            <a href="#" class="mb-4 mt-4">
+
+            <a href="https://twitter.com/reactjs?lang=en"  target="_blank"  class="mb-4 mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#FFFFFF">
                     <path d="M22.46 6c-.77.35-1.59.58-2.46.69a4.27 4.27 0 001.87-2.34c-.84.49-1.76.84-2.75 1.03a4.27 4.27 0 00-7.27 3.9A12.14 12.14 0 012.34 4.7a4.27 4.27 0 001.32 5.7A4.23 4.23 0 012 9.54v.05a4.27 4.27 0 003.42 4.18 4.27 4.27 0 01-1.92.07 4.27 4.27 0 003.98 2.95A8.57 8.57 0 012 19.3 12.07 12.07 0 007.29 21c7.54 0 11.67-6.24 11.67-11.67v-.53A8.36 8.36 0 0024 6.64a8.42 8.42 0 01-2.54.7z"/>
                   </svg>
                   </a>
-            <a href="#" class="mb-4 mt-4">
+            <a href="https://www.facebook.com/groups/JavaScript.Programming/"  target="_blank" class="mb-4 mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#FFFFFF">
                     <path d="M22.68 0H1.32C.59 0 0 .59 0 1.32v21.36C0 23.41.59 24 1.32 24H12.8v-9.33H9.68v-3.64h3.12V8.34c0-3.1 1.89-4.8 4.65-4.8 1.32 0 2.45.1 2.78.14v3.22h-1.91c-1.5 0-1.79.72-1.79 1.76v2.31h3.57l-.47 3.64h-3.1V24h6.08c.73 0 1.32-.59 1.32-1.32V1.32C24 .59 23.41 0 22.68 0z"/>
                   </svg>
                   
             </a>
-            <a href="#" class="mb-4 mt-4">
+            <a href="https://www.instagram.com/javascript.js/?hl=en" target="_blank"  class="mb-4 mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#FFFFFF">
                     <path d="M12 0c-3.17 0-3.58.01-4.84.07-1.25.06-2.1.25-2.83.54a5.56 5.56 0 00-1.99 1.31 5.56 5.56 0 00-1.31 1.99c-.29.73-.48 1.58-.54 2.83C.01 8.42 0 8.83 0 12s.01 3.58.07 4.84c.06 1.25.25 2.1.54 2.83a5.56 5.56 0 001.31 1.99 5.56 5.56 0 001.99 1.31c.73.29 1.58.48 2.83.54 1.26.06 1.67.07 4.84.07s3.58-.01 4.84-.07c1.25-.06 2.1-.25 2.83-.54a5.56 5.56 0 001.99-1.31 5.56 5.56 0 001.31-1.99c.29-.73.48-1.58.54-2.83.06-1.26.07-1.67.07-4.84s-.01-3.58-.07-4.84c-.06-1.25-.25-2.1-.54-2.83a5.56 5.56 0 00-1.31-1.99 5.56 5.56 0 00-1.99-1.31c-.73-.29-1.58-.48-2.83-.54C15.58.01 15.17 0 12 0zm0 2.16c3.11 0 3.47.01 4.69.07 1.13.05 1.75.24 2.16.4.55.21.95.47 1.37.88s.67.82.88 1.37c.16.41.35 1.03.4 2.16.06 1.22.07 1.58.07 4.69s-.01 3.47-.07 4.69c-.05 1.13-.24 1.75-.4 2.16-.21.55-.47.95-.88 1.37s-.82.67-1.37.88c-.41.16-1.03.35-2.16.4-1.22.06-1.58.07-4.69.07s-3.47-.01-4.69-.07c-1.13-.05-1.75-.24-2.16-.4a3.92 3.92 0 01-1.37-.88 3.92 3.92 0 01-.88-1.37c-.16-.41-.35-1.03-.4-2.16-.06-1.22-.07-1.58-.07-4.69s.01-3.47.07-4.69c.05-1.13.24-1.75.4-2.16.21-.55.47-.95.88-1.37s.82-.67 1.37-.88c.41-.16 1.03-.35 2.16-.4 1.22-.06 1.58-.07 4.69-.07zm0 3.27a5.57 5.57 0 00-5.57 5.57 5.57 5.57 0 005.57 5.57 5.57 5.57 0 005.57-5.57A5.57 5.57 0 0012 5.43zm0 1.84a3.73 3.73 0 013.73 3.73A3.73 3.73 0 0112 14.73a3.73 3.73 0 01-3.73-3.73A3.73 3.73 0 0112 7.27zm6.36-2.54a1.32 1.32 0 00-1.32 1.32 1.32 1.32 0 001.32 1.32 1.32 1.32 0 001.32-1.32 1.32 1.32 0 00-1.32-1.32z"/>
                   </svg>
                   
             </a>
-            <a href="#" class="mb-4 mt-4">
+            <a href="https://www.youtube.com/c/JavaScriptMastery/videos"  target="_blank" class="mb-4 mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#FFFFFF">
                     <path d="M23.5 6.7c-.3-1.2-1.2-2.1-2.3-2.4-2-.5-10.2-.5-10.2-.5s-8.2 0-10.2.5C1.7 4.6.8 5.5.5 6.7 0 8.7 0 12 0 12s0 3.3.5 5.3c.3 1.2 1.2 2.1 2.3 2.4 2 .5 10.2.5 10.2.5s8.2 0 10.2-.5c1.2-.3 2.1-1.2 2.4-2.4.5-2 .5-5.3.5-5.3s0-3.3-.5-5.3zM9.75 15.02V8.98l6.25 3.02-6.25 3.02z"/>
                   </svg>
             </a>
-            
+
             <!-- Add more icons as needed -->
         </div>
 
         <!-- Right Portion: Text and Button -->
-        <div class="flex-1 p-6 flex  items-center h-screen">
+        <div class="flex-1 p-6 flex  ">
 
-            <div>
+            <div class="h-screen flex flex-col justify-center items-start">
                 <h1 class="text-white text-6xl md:text-6xl font-bold">EXPLORE</h1>
-            <h1 class="text-white text-6xl md:text-6xl font-bold">DREAM</h1>
-            <h1 class="text-white text-6xl md:text-6xl font-bold">DESTINATION</h1>
-            <p class="text-white text-md  mt-4 max-w-md">
-                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
-                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
-            </p>
-            <button class="mt-6 px-4 py-2 bg-green-600 text-white text-lg  rounded-lg">BOOK NOW</button>
+                <h1 class="text-white text-6xl md:text-6xl font-bold">DREAM</h1>
+                <h1 class="text-white text-6xl md:text-6xl font-bold">DESTINATION</h1>
+                <p class="text-white text-md  mt-4 max-w-md">
+                    It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes,
+                    while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+                </p>
+                <button class="mt-6 px-4 py-2 bg-green-600 text-white text-lg max-w-sm rounded-lg">BOOK NOW</button>
             </div>
-            <div>
-                <div class="max-w-md " id="container">
-                    
+            <div class="p-6 flex items-start justify-end ">
+                <div class="max-w-md mt-30 overflow-y-auto" id="container">
+
                 </div>
             </div>
         </div>
